@@ -45,7 +45,7 @@
   }
   const img=new Image();img.onload=()=>useImage(img);
   img.onerror=()=>{status.textContent='Interactive Earth ready · Simplified map';requestDraw();};
-  img.src=window.__EARTH_TEXTURE_URL || './earth-texture.webp';
+  img.src=window.__EARTH_TEXTURE_URL || './earth-texture.svg';
 
   function dateAngle(i){
     const date=new Date(Date.UTC(2026,10,11+i));
