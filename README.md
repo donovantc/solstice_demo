@@ -3,7 +3,7 @@
 An interactive, responsive explainer of why London's sunsets begin getting later before the shortest day in winter.
 
 ## Features
-- Dependency-free, draggable 3D-looking globe with real geographic coastlines and a day/night terminator
+- Dependency-free, draggable 3D-looking globe with a stylized world-map texture and a day/night terminator
 - London marker, rotate and scroll/pinch zoom, reset camera
 - Time-of-day scrubber, animated day, sunrise / solar noon / sunset shortcuts
 - Visual 24-hour timeline showing the current daylight window
@@ -29,7 +29,7 @@ Leave the framework preset as **Other**, with no build command or output directo
 ## Files
 - `index.html` – layout, chart, solar-time calculations and quiz
 - `earth.js` – dependency-free canvas globe, controls and astronomical sunlight shading
-- `earth-texture.svg` – local map image generated from Natural Earth geography
+- `earth-texture.svg` – bundled stylized SVG map that needs no external image hosting
 - `vercel.json` – static-site configuration
 
 ## Astronomical notes
@@ -40,5 +40,5 @@ The chart uses an apparent-horizon convention of -0.833° to account approximate
 The purple marker is fixed to the astronomical winter solstice day, **21 December 2026**, though the minimum of a model's civil-day daylight length may differ by a few seconds on adjacent dates.
 The globe depicts Earth's surface under approximately parallel sunlight; it is not a scale-accurate Earth–Sun system.
 
-Natural Earth map data is public domain: https://www.naturalearthdata.com/about/terms-of-use/.
+The globe's map is illustrative rather than geographically precise.
 Further reading on the equation of time: https://aa.usno.navy.mil/faq/eqtime
