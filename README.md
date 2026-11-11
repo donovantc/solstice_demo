@@ -29,7 +29,7 @@ Leave the framework preset as **Other**, with no build command or output directo
 ## Files
 - `index.html` – layout, chart, solar-time calculations and quiz
 - `earth.js` – dependency-free canvas globe, controls and astronomical sunlight shading
-- `earth-texture.webp` – local map image generated from Natural Earth geography
+- `earth-texture.svg` – local map image generated from Natural Earth geography
 - `vercel.json` – static-site configuration
 
 ## Astronomical notes
